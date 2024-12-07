@@ -1,3 +1,1 @@
-const firstName: string = 'pedro'
-
-console.log(firstName)
+import './types/Variables'

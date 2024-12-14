@@ -2,4 +2,5 @@
 // import './types/Array'
 // import './types/Enums'
 // import './types/Functions'
-import './types/Objects'
+// import './types/Objects'
+import './types/Product'

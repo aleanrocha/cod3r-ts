@@ -16,3 +16,17 @@ n = 'A'
 // n = 'Z'
 console.log(n)
 
+
+// CHECAGEM DE TIPOS
+
+const printGrade = (grade: GradeOrConcept): void => {
+  if (typeof grade === 'number') {
+    console.log('Sua nota é: ', grade)
+  } else {
+    console.log('Seu conceito de nota é:', grade)
+  }
+}
+
+printGrade(n)
+printGrade(9)
+

@@ -7,4 +7,5 @@
 // import './types/Union'
 // import './types/Never'
 // import './types/Null'
-import './types/FinalChallenge'
+//import './types/FinalChallenge'
+import './oo/class_1'

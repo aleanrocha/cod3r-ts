@@ -1,13 +1,14 @@
 class Course {
-  readonly id: number | undefined
-  name: string | undefined
-
-  constructor(id: number) {
+  constructor(readonly id: number, public name?: string | undefined) {
     this.id = id
   }
 }
 
-const c1 = new Course(Number((Math.random()).toString().slice(2)))
+const c1 = new Course(Number(Math.random().toString().slice(2)))
+const c2 = new Course(
+  Number(Math.random().toString().slice(2)),
+  'Curso avançado de TS'
+)
 
 console.log(c1)
 
@@ -17,3 +18,5 @@ console.log(c1)
 console.log(c1.name)
 
 console.log(c1.id)
+
+console.log(c2)

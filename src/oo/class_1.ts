@@ -1,13 +1,9 @@
 class Course {
-  private _id: number | undefined
-  public name: string | undefined
+  readonly id: number | undefined
+  name: string | undefined
 
   constructor(id: number) {
-    this._id = id
-  }
-
-  get id() {
-    return this._id
+    this.id = id
   }
 }
 

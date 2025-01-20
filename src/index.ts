@@ -8,4 +8,6 @@
 // import './types/Never'
 // import './types/Null'
 //import './types/FinalChallenge'
-import './oo/class_1'
+//import './oo/class_1'
+//import './oo/class_2'
+import './oo/class_3-challenge'

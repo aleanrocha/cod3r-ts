@@ -24,6 +24,34 @@ const user2: User = {
   password: `dvwigyefv7${Generate.Id()}1f23qpbfpWEBV`
 }
 
+ const optionalUser: Partial<User> = {
+  name: 'Lá ele'
+ }
+
+ const requiredUser: Required<User> = {
+  id: Generate.Id(),
+  name: 'Gabriel',
+  email: 'gabriel@gmail.com',
+  password: 'calvbibviabvkjlavbçpvbWEAIP'
+ }
+
+ const readonlyUser: Readonly<User> = {
+  id: Generate.Id(),
+  name: 'Bia',
+  email: 'bia@gmail.com',
+  password: '465277t73f4'
+ }
+
 console.log(user1)
 console.log(user2)
+
+console.log(optionalUser)
+console.log(requiredUser)
+
+console.log(requiredUser.password = '123')
+
+console.log(requiredUser)
+
+console.log(readonlyUser)
+// console.log(readonlyUser.password = '22222')
 

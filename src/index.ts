@@ -13,5 +13,6 @@
 // import './oo/class_3-challenge'
 // import './oo/validade'
 // import './oo/static-challenge'
-import './interfaces/User'
+// import './interfaces/User'
+import './interfaces/Flexible'
 

@@ -14,5 +14,5 @@
 // import './oo/validade'
 // import './oo/static-challenge'
 // import './interfaces/User'
-import './interfaces/Flexible'
-
+// import './interfaces/Flexible'
+import './interfaces/Function'

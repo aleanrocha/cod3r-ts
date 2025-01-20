@@ -11,4 +11,6 @@
 //import './oo/class_1'
 //import './oo/class_2'
 //import './oo/class_3-challenge'
-import './oo/validade'
+//import './oo/validade'
+import './oo/static-challenge'
+

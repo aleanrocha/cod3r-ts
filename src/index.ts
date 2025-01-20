@@ -10,4 +10,5 @@
 //import './types/FinalChallenge'
 //import './oo/class_1'
 //import './oo/class_2'
-import './oo/class_3-challenge'
+//import './oo/class_3-challenge'
+import './oo/validade'

@@ -8,6 +8,7 @@ export interface User {
   id: number
   name: string
   email: string
+  password?: string
 }
 
 const user1: User = {
@@ -20,6 +21,7 @@ const user2: User = {
   id: Generate.Id(),
   name: 'Manoel',
   email: 'manoel@gmail.com',
+  password: `dvwigyefv7${Generate.Id()}1f23qpbfpWEBV`
 }
 
 console.log(user1)

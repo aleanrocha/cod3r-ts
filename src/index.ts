@@ -15,4 +15,5 @@
 // import './oo/static-challenge'
 // import './interfaces/User'
 // import './interfaces/Flexible'
-import './interfaces/Function'
+// import './interfaces/Function'
+import './oo_pillars/encapsulation'

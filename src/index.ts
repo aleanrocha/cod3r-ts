@@ -16,4 +16,5 @@
 // import './interfaces/User'
 // import './interfaces/Flexible'
 // import './interfaces/Function'
-import './oo_pillars/encapsulation'
+// import './oo_pillars/encapsulation'
+import './oo_pillars/inheritance_01'

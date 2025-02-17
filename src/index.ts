@@ -20,4 +20,6 @@
 // import './oo_pillars/inheritance_01'
 // import './oo_pillars/inheritance_02'
 // import './oo_pillars/inheritance_03'
-import './oo_pillars/inheritance_04'
+// import './oo_pillars/inheritance_04'
+import './oo_pillars/inheritance_05'
+
